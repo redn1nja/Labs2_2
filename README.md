@@ -19,5 +19,5 @@ To use the lab2_3.py locally on your computer, you need to run these commands in
 ```
  
 ## Examples
-![image](![image](https://user-images.githubusercontent.com/92575534/154721094-373b292e-fbe4-4784-81f5-fd5e84beecd8.png))
+![image](https://user-images.githubusercontent.com/92575534/154722076-8e48b131-689b-41d1-986a-4f304fc2fe5a.png)
 ![image](https://user-images.githubusercontent.com/92575534/154721565-d168b55f-4a8d-4a96-9c4b-d44d5bfc89f5.png)
