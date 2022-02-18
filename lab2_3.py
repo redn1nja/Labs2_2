@@ -15,20 +15,18 @@ def intro():
             return maps(val)
     return render_template('intro.html')
 
-@app.route('/tree', methods=['GET', 'POST'])
-def index():
-    # if request.method =='GET':
-    #     return render_template('intro.html')
-    return render_template('map.html')
+# @app.route('/tree', methods=['GET', 'POST'])
+# def index():
+#     # if request.method =='GET':
+#     #     return render_template('intro.html')
+    
     
     
     
 @app.route('/map', methods=['POST', 'GET'])
 def maps(acc):
     mapper.main(acc)
-    if request.method =='POST':
-        return redirect(url_for('index'))
-    return render_template('intro.html')
+    return render_template('map.html')
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080)
